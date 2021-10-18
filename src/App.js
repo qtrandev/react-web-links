@@ -4,18 +4,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Quyen here </h1>
+        <h1> Web Links </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <a href="https://www.qtranfilms.com" target="_blank">qtranfilms.com</a> - Cinematographer<br/>
+          <a href="http://quyentran.com" target="_blank">quyentran.com</a> - Software developer<br/>
+          <a href="https://twitter.com/quyentran" target="_blank">twitter.com/quyentran</a> - Prolific tweeter<br/>
+          <a href="https://www.simplyeyes.com" target="_blank">simplyeyes.com</a> - Eye doctor<br/>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
