@@ -2,9 +2,12 @@
 
 Starter project for web links page.
 
-## Libaries Used
+## Resources Used
 
+[React](https://reactjs.org)  
+[React Hooks (TBD)](https://reactjs.org/docs/hooks-intro.html)  
 [React Bootstrap](https://react-bootstrap.github.io)  
+[Netlify](https://www.netlify.com)  
 
 ## Create React App Instructions
 
