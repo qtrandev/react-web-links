@@ -1,5 +1,6 @@
 import './App.css'
 import { Button } from 'react-bootstrap'
+import Link from './components/Link'
 
 const LINKS = [
   { url: "https://www.qtranfilms.com", text: "qtranfilms.com", title: "Cinematographer" },
@@ -18,9 +19,7 @@ function App() {
         <ul>
           {
             LINKS.map( link => {
-              return (
-              <li key={link.text}><a href={link.url}>{link.text}</a> - {link.title}<br/></li>
-              )
+              return <Link key={link.text} link={link}/>
             })
           }
         </ul>
