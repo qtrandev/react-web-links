@@ -8,6 +8,7 @@ Starter project for web links page.
 [React Hooks (TBD)](https://reactjs.org/docs/hooks-intro.html)  
 [React Bootstrap](https://react-bootstrap.github.io)  
 [Netlify](https://www.netlify.com)  
+Icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/)  
 
 ## Create React App Instructions
 
