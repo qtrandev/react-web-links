@@ -3,6 +3,6 @@ import '../App.css'
 
 export default function ImagePreview({ link }) {
   return (
-    <img className="imagePreview" src={link.image}></img>
+    <img className="imagePreview" src={link.image} alt={link.title}></img>
   )
 }
