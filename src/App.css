@@ -12,3 +12,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.imagePreview {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
