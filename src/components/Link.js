@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Link({ link }) {
+export default function Link({ link, onHover, onMouseOut }) {
   return (
-    <li><a href={link.url}>{link.text}</a> - {link.title}<br/></li>
+    <li onMouseOver={onHover} onMouseOut={onMouseOut}><a href={link.url}>{link.text}</a> - {link.title}<br/></li>
   )
 }
