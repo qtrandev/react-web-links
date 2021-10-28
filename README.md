@@ -1,5 +1,5 @@
 # React Web Links
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7b619b7e-09fe-466a-bc2d-3335a947e246/deploy-status)](https://app.netlify.com/sites/react-web-links/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7b619b7e-09fe-466a-bc2d-3335a947e246/deploy-status)](https://react-web-links.netlify.app/)
 
 Starter project for web links page.
 

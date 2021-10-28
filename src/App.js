@@ -60,6 +60,7 @@ function App() {
           {LINKS.map((link) => {
             return (
               <Link
+                onClick={() => setSelected(link)}
                 onHover={() => setSelected(link)}
                 onMouseOut={() => setSelected()}
                 key={link.text}
