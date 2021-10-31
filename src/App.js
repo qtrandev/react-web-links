@@ -1,8 +1,6 @@
 import './App.css'
-import { useState } from 'react'
 import { Button } from 'react-bootstrap'
-import Link from './components/Link'
-import ImagePreview from './components/ImagePreview'
+import WebLinks from './components/WebLinks'
 
 const LINKS = [
   {
@@ -49,26 +47,10 @@ const LINKS = [
 ]
 
 function App() {
-  const [selected, setSelected] = useState()
-
   return (
     <div className="App">
       <header className="App-header">
-        {selected && <ImagePreview link={selected} />}
-        <h1> Web Links </h1>
-        <ul>
-          {LINKS.map((link) => {
-            return (
-              <Link
-                onClick={() => setSelected(link)}
-                onHover={() => setSelected(link)}
-                onMouseOut={() => setSelected()}
-                key={link.text}
-                link={link}
-              />
-            )
-          })}
-        </ul>
+        <WebLinks links={LINKS} />
         <Button
           variant="secondary"
           href="https://github.com/qtrandev/react-web-links"
